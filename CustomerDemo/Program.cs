@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CustomerDemo
+﻿namespace CustomerDemo
 {
     class Program
     {
@@ -18,6 +12,8 @@ namespace CustomerDemo
             company.Save();
 
             var savedCustomer = Customer.Find(customer.Id);
+
+            var savedCustomer2 = SaveToFileObjectBase.Find<Customer>(customer.Id);
 
             var savedCompany = Company.Find(company.Id);
             customer.Delete();

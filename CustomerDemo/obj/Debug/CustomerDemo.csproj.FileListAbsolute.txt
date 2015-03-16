@@ -1,0 +1,8 @@
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\bin\Debug\CustomerDemo.exe.config
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\bin\Debug\CustomerDemo.exe
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\bin\Debug\CustomerDemo.pdb
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\obj\Debug\CustomerDemo.csprojResolveAssemblyReference.cache
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\obj\Debug\CustomerDemo.exe
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\obj\Debug\CustomerDemo.pdb
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\bin\Debug\nunit.framework.dll
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemo\bin\Debug\nunit.framework.xml

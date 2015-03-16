@@ -1,0 +1,9 @@
+c:\users\francis_surroca\documents\visual studio 2015\Projects\CustomerDemo\CustomerDemoTests\obj\Debug\CustomerDemoTests.csprojResolveAssemblyReference.cache
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\bin\Debug\CustomerDemoTests.dll
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\bin\Debug\CustomerDemoTests.pdb
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\bin\Debug\CustomerDemo.exe
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\bin\Debug\nunit.framework.dll
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\bin\Debug\CustomerDemo.pdb
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\bin\Debug\nunit.framework.xml
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\obj\Debug\CustomerDemoTests.dll
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoTests\obj\Debug\CustomerDemoTests.pdb

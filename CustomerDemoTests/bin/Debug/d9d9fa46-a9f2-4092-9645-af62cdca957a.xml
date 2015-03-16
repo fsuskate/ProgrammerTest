@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>d9d9fa46-a9f2-4092-9645-af62cdca957a</Id>
+  <Name>Alliance Reservations Network</Name>
+  <Address>
+    <Id>a28cd39c-4bfe-4135-a8ae-c0795f85f7d3</Id>
+    <Street>56 Main St</Street>
+    <City>Mesa</City>
+    <State>AZ</State>
+    <ZipCode>85225</ZipCode>
+  </Address>
+</Company>

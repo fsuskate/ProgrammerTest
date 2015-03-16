@@ -1,6 +1,6 @@
 ﻿namespace CustomerDemo
 {
-    public class Address : SaveToFileObjectBase
+    public class Address : PersistToXMLFile
     {
         public string Street { get; set; }
         public string City { get; set; }

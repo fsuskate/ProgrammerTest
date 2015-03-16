@@ -1,0 +1,6 @@
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOC\obj\Debug\CustomerDemoIOC.csprojResolveAssemblyReference.cache
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOC\bin\Debug\CustomerDemoIOC.exe.config
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOC\bin\Debug\CustomerDemoIOC.exe
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOC\bin\Debug\CustomerDemoIOC.pdb
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOC\obj\Debug\CustomerDemoIOC.exe
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOC\obj\Debug\CustomerDemoIOC.pdb

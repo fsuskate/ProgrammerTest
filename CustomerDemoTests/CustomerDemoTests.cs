@@ -71,7 +71,7 @@ namespace CustomerDemoTests
             company.Save();
             Assert.That(company.Id, Is.Not.Null.Or.Empty);
 
-            var savedCustomer = SaveToFileObjectBase.Find<Customer>(customer.Id);
+            var savedCustomer = PersistToXMLFile.Find<Customer>(customer.Id);
             Assert.IsNotNull(savedCustomer);
             Assert.AreSame(customer.Address, address);
             Assert.AreEqual(savedCustomer.Address, address);
@@ -81,7 +81,7 @@ namespace CustomerDemoTests
             Assert.AreEqual(customer, savedCustomer);
             Assert.AreNotSame(customer, savedCustomer);
 
-            var savedCompany = SaveToFileObjectBase.Find<Company>(company.Id);
+            var savedCompany = PersistToXMLFile.Find<Company>(company.Id);
             Assert.IsNotNull(savedCompany);
             Assert.AreSame(company.Address, address);
             Assert.AreEqual(savedCompany.Address, address);

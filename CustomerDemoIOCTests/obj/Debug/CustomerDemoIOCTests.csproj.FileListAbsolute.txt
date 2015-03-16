@@ -1,0 +1,9 @@
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\obj\Debug\CustomerDemoIOCTests.csprojResolveAssemblyReference.cache
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\bin\Debug\CustomerDemoIOCTests.dll
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\bin\Debug\CustomerDemoIOCTests.pdb
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\bin\Debug\CustomerDemoIOC.exe
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\bin\Debug\nunit.framework.dll
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\bin\Debug\CustomerDemoIOC.pdb
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\bin\Debug\nunit.framework.xml
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\obj\Debug\CustomerDemoIOCTests.dll
+C:\Users\francis_surroca\Documents\Visual Studio 2015\Projects\CustomerDemo\CustomerDemoIOCTests\obj\Debug\CustomerDemoIOCTests.pdb

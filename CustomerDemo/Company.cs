@@ -1,6 +1,6 @@
 ﻿namespace CustomerDemo
 {
-    public class Company : SaveToFileObjectBase
+    public class Company : PersistToXMLFile
     {
         public string Name { get; set; }
         public Address Address { get; set; }

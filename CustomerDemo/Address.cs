@@ -23,11 +23,6 @@ namespace CustomerDemo
             ZipCode = zipCode;
         }
 
-        public static Address Find(Guid id)
-        {
-            return SaveToFileObjectBase.FindBase(id, typeof(Address)) as Address;
-        }
-
         public override bool Equals(object obj)
         {
             Address other = obj as Address;

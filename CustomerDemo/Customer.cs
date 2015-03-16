@@ -21,11 +21,6 @@ namespace CustomerDemo
             Address = address;
         }
 
-        public static Customer Find(Guid id)
-        {
-            return SaveToFileObjectBase.FindBase(id, typeof(Customer)) as Customer;
-        }
-
         public override bool Equals(object obj)
         {
             Customer other = obj as Customer;

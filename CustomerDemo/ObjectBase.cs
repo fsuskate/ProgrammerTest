@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace CustomerDemo
@@ -32,18 +33,34 @@ namespace CustomerDemo
             File.Delete(GetFilePath());
         }
 
-        public static object FindBase(Guid id, Type type)
+        public static dynamic Find(Guid id)
         {
             string fileName = GetFilePath(id);
             if (!string.IsNullOrEmpty(fileName) && File.Exists(fileName))
             {
-                XmlSerializer xmlSerializer = new XmlSerializer(type);
-                using (StreamReader readfile = new StreamReader(fileName))
+                Type type = GetTypeFromXML(fileName);
+                if (type != null)
                 {
-                    return xmlSerializer.Deserialize(readfile);
+                    XmlSerializer xmlSerializer = new XmlSerializer(type);
+                    using (StreamReader readfile = new StreamReader(fileName))
+                    {
+                        if (type == typeof(Customer))
+                        {
+                            return xmlSerializer.Deserialize(readfile) as Customer;
+                        }
+                        else if (type == typeof(Company))
+                        {
+                            return xmlSerializer.Deserialize(readfile) as Company;
+                        }                        
+                    }
                 }
             }
             return null;
+        }
+
+        public static string GetFilePath(Guid id)
+        {
+            return Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\" + id.ToString() + ".xml";
         }
 
         protected string GetFilePath()
@@ -56,9 +73,20 @@ namespace CustomerDemo
             return fileName;
         }
 
-        public static string GetFilePath(Guid id)
+        protected static Type GetTypeFromXML(string fileName)
         {
-            return Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\" +  id.ToString() + ".xml";
-        }
+            XmlDocument xmlDocument = new XmlDocument();
+            xmlDocument.Load(fileName);
+
+            Type[] types = Assembly.GetExecutingAssembly().GetTypes();
+            foreach (Type t in types)
+            {
+                if (t.Name.IndexOf(xmlDocument.DocumentElement.Name) > -1)
+                {
+                    return t;                    
+                }
+            }
+            return null;
+        }        
     }
 }

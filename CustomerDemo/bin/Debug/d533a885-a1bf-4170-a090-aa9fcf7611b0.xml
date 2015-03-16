@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>d533a885-a1bf-4170-a090-aa9fcf7611b0</Id>
+  <FirstName>John</FirstName>
+  <LastName>Doe</LastName>
+  <Address>
+    <Id>d970e846-eae8-4e8f-aa7d-70ceb3d85f6b</Id>
+    <Street>56 Main St</Street>
+    <City>Mesa</City>
+    <State>AZ</State>
+    <ZipCode>85225</ZipCode>
+  </Address>
+</Customer>

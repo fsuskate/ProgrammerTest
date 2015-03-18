@@ -63,6 +63,7 @@
     <Compile Include="Address.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="IPersistData.cs" />
     <Compile Include="PersistToXMLFile.cs" />
     <Compile Include="Program.cs" />

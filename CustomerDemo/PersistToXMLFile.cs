@@ -37,8 +37,8 @@ namespace CustomerDemo
         }
 
         /// <summary>
-        /// This Generic version can find any subclass of SaveToFileObjectBase. The caller must specify a type
-        /// the derives from SaveToFileObjectBase. There is a seperate test case to test this version of Find
+        /// This Generic version can find any subclass of PersistToXMLFile. The caller must specify a type
+        /// the derives from PersistToXMLFile. There is a seperate test case to test this version of Find
         /// since the original test did not allow for a Generic version of Find.
         /// </summary>
         /// <typeparam name="T"></typeparam>
